@@ -1,5 +1,4 @@
 import '../main.css';
-import aboutPhoto from './pfp.jpeg';
 
 
 function About() {
@@ -8,7 +7,7 @@ function About() {
         <div className="container">
             <div className="vertical-container">
                 <div className="image">
-                    <img src={aboutPhoto} alt="about" width="250rem"/>
+                    <img src="/pfp.jpeg" alt="about" width="250rem"/>
                 </div>
                 <div className="body-container">
 Erika is a Brooklyn-based filmmaker from Knoxville, TN. Her work centers around the small pockets of existence that shape everyday life. She graduated from MIT with a B.S. in Computer Science. In her free time, she can be found on various types of circus apparatuses. Her directorial debut short film, Pit Stops, received the 2025 WAVE Grant from Wavelength Productions.
